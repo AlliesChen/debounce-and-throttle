@@ -1,4 +1,10 @@
-# Vue 3 + TypeScript + Vite
+# An demo of effects of debounce and throttle
+
+- Debounce: In the debounce mode, the roller scrolls down if only you stop scrolling your mouse wheel for at least 1.5 seconds.
+- Debounce immediate: In the debounce mode, the roller scrolls down immediately, then it won't scroll again till the your mouse wheel action stop for at least 1.5 seconds.
+- Throttle: In throttle mode, the roller scrolls down at the beginning of your move on scrolling mouse wheel, however, it will then enter 2 seconds cool down time that ignores more moves.
+
+## Vue 3 + TypeScript + Vite
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
