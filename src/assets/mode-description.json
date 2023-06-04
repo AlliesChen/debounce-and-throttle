@@ -1,0 +1,6 @@
+{
+  "null": "By default, every step you scroll up/down your mouse wheel will trigger the roller to scroll down.",
+  "d": "In the debounce mode, the roller scrolls down if only you stop scrolling your mouse wheel for at least 1.5 seconds.",
+  "di": "In the debounce mode, the roller scrolls down immediately, then it won't scroll again till the your mouse wheel action stop for at least 1.5 seconds.",
+  "t": "In throttle mode, the roller scrolls down at the beginning of your move on scrolling mouse wheel, however, it will then enter 2 seconds cool down time that ignores more moves."
+}
